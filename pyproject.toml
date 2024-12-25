@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mtg-commander-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Douglas Faisal"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gradio = "^5.9.1"
+langchain-openai = "^0.2.14"
+langgraph = "^0.2.60"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
